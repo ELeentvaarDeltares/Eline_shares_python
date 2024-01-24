@@ -3,7 +3,7 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 import pandas as pd
 from pathlib import Path
-
+import numpy as np
 
 xml_file_path = "Aldeboarn.xml"
 
@@ -27,7 +27,6 @@ class read_xml_geologischeboringen:
             self.read_borehole()
             df = self.createdf()
             self.df_to_csv(df)
-            break
 
     def read_coordinates(self):
         elementX = (
@@ -74,17 +73,21 @@ class read_xml_geologischeboringen:
                 colorMain.append(int.find("colorMain").get("code"))
             else:
                 colorMain.append(None)
+        self.baseDepth = baseDepth
+        print(np.shape(baseDepth))
 
-            # Do this for all the information you want, a dictionary needs to be created that translates these codes back to words.
+        # Do this for all the information you want, a dictionary needs to be created that translates these codes back to words.
 
     def createdf(self):
         data = {
-            "Xcoordinaat": [self.xcoordinaat],
-            "Ycoordinaat": [self.ycoordinaat],
-            "Maaiveld": [self.maaiveld],
+            "Xcoordinaat": self.xcoordinaat,
+            "Ycoordinaat": self.ycoordinaat,
+            "Maaiveld": self.maaiveld,
+            "BaseDepth": self.baseDepth,
         }
 
         df = pd.DataFrame(data)
+        print(df)
         return df
 
     def df_to_csv(self, df):

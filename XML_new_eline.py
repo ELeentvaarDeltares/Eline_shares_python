@@ -7,9 +7,8 @@ import numpy as np
 
 xml_file_path = "Aldeboarn.xml"
 
-import dino_xml_reader
-from dino_xml_reader import BroXmlBorehole
-from dino_xml_reader import XmlLithoIntervalVariables
+
+# test hoe ik deze data kan inlezen: nu nog veranderen naar pysst en dan naar .csv
 
 
 class read_xml_geologischeboringen:

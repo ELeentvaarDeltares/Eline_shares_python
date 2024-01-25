@@ -71,8 +71,10 @@ class read_xml_geologischeboringen:
                     arrays_dict[child.tag] = []
         for int in borehole_lithoIntervals:
             for key, value in arrays_dict.items():
-                if int.find(key) != None:
+                if int.find(key) != None and key != "remark":
                     arrays_dict[key].append(int.find(key).get("code"))
+                elif key == "remark" and int.find(key).text != None:
+                    arrays_dict[key].append(str([int.find(key).text]))
                 else:
                     arrays_dict[key].append(None)
         self.geology = arrays_dict
@@ -86,10 +88,12 @@ class read_xml_geologischeboringen:
 
         df_data = pd.DataFrame([data])
         df_geo = pd.DataFrame(self.geology)
+
         df_data = df_data.reindex(range(len(df_geo))).ffill()
         df = pd.concat((df_data, df_geo), axis=1)
 
-        print(df)
+        new_order = [col for col in df.columns if col != "remark"] + ["remark"]
+        df = df[new_order]
         return df
 
     def df_to_csv(self, df):

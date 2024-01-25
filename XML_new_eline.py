@@ -21,10 +21,13 @@ class read_xml_geologischeboringen:
             tree = ET.parse(filepath)
             root = tree.getroot()
             self.xml = root
+
             self.read_coordinates()
             self.read_maaiveld()
             self.read_borehole()
-            df = self.createdf()
+            df = self.create_df()
+
+            # #veranderen naar pysst functie
             self.df_to_csv(df)
 
     def read_coordinates(self):
@@ -61,31 +64,31 @@ class read_xml_geologischeboringen:
             .findall("lithoInterval")
         )
 
-        baseDepth = []
-        lithology = []
-        colorMain = []
+        arrays_dict = {}
         for int in borehole_lithoIntervals:
-            baseDepth.append(int.get("baseDepth"))
-            lithology.append(int.find("lithology").get("code"))
+            for child in int:
+                if child.tag not in arrays_dict:
+                    arrays_dict[child.tag] = []
+        for int in borehole_lithoIntervals:
+            for key, value in arrays_dict.items():
+                if int.find(key) != None:
+                    arrays_dict[key].append(int.find(key).get("code"))
+                else:
+                    arrays_dict[key].append(None)
+        self.geology = arrays_dict
 
-            if int.find("colorMain") != None:
-                colorMain.append(int.find("colorMain").get("code"))
-            else:
-                colorMain.append(None)
-        self.baseDepth = baseDepth
-        print(np.shape(baseDepth))
-
-        # Do this for all the information you want, a dictionary needs to be created that translates these codes back to words.
-
-    def createdf(self):
+    def create_df(self):
         data = {
             "Xcoordinaat": self.xcoordinaat,
             "Ycoordinaat": self.ycoordinaat,
             "Maaiveld": self.maaiveld,
-            "BaseDepth": self.baseDepth,
         }
 
-        df = pd.DataFrame(data)
+        df_data = pd.DataFrame([data])
+        df_geo = pd.DataFrame(self.geology)
+        df_data = df_data.reindex(range(len(df_geo))).ffill()
+        df = pd.concat((df_data, df_geo), axis=1)
+
         print(df)
         return df
 

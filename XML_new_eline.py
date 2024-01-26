@@ -25,7 +25,6 @@ class read_xml_geologischeboringen:
             self.to_csv(df, boreholenumber)
 
     def boreholenumber(self):
-        print(self.xml.find("identification").attrib.get("id"))
         boreholenumber = self.xml.find("identification").attrib.get("id")
         return boreholenumber
 
@@ -104,7 +103,5 @@ class read_xml_geologischeboringen:
     def to_csv(self, df, boreholenumber):
         df.to_csv(boreholenumber + ".csv")
 
-
-# boornummer koppelen aan naam csv + nog even top en bottom toevoegen
 
 read_xml_geologischeboringen(xml_file_path)

@@ -1,0 +1,11 @@
+,Xcoordinaat,Ycoordinaat,Maaiveld,top,bottom,lithology,siltAdmix,humusAdmix,colorMain,colorSecondary,carbonateFracNEN5104,authigenMin,clayAdmix,colorIntensity,peatAmorph,consistency,plantType,sandMedian,sandMedianClass,remark
+0,189703,563065,-102,0,27,K,S2,H3,GR,TBR,CA1,FEO1,,,,,,,,"['o, grind, baksteen, geroerd']"
+1,189703,563065,-102,27,45,V,,,BR,TGR,CA1,,K1,DO,AV3,CMSL,,,,"['o, TS0, VEZ0, brokkelig']"
+2,189703,563065,-102,45,60,V,,,BR,,CA1,,KM,DO,AV3,CMSL,WOGX,,,"['or, TS0, VEZ0, brokkelig, mosveen']"
+3,189703,563065,-102,60,100,V,,,BR,,CA1,,KM,DO,AV2,CMSL,WOGX,,,"['or, TS1, VEZ2, mosveen']"
+4,189703,563065,-102,100,160,V,,,BR,,CA1,,KM,,AV1,CMST,WOGX,,,"['r, TS1, VEZ3']"
+5,189703,563065,-102,160,171,V,,,BR,,CA1,,KM,,AV1,CSLA,WOGX,,,"['r, TS0, VEZ3']"
+6,189703,563065,-102,171,180,DET,,,BR,TZW,CA1,,,,AV3,CMSL,,,,"['r, VEZ1, TS0, glyde+zand, doorworteld, fijne detr']"
+7,189703,563065,-102,180,193,Z,,H1,GR,TBR,CA1,FEO1,KX,LI,,,,,ZMF,"['r, ms']"
+8,189703,563065,-102,193,210,Z,,H1,BR,TOR,,FEO2,KX,LI,,,,,ZMF,"['r, ms, inspoeling Fe, paleobodem']"
+9,189703,563065,-102,210,250,Z,,,,,,,,,,,,,,"['zand gevoeld, compact']"

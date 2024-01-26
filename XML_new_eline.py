@@ -16,17 +16,18 @@ class read_xml_geologischeboringen:
         root = tree.getroot()
         for pointsurveys in root.findall("pointSurvey"):
             self.xml = pointsurveys
-            self.boreholenumber()
+            boreholenumber = self.boreholenumber()
             self.read_topbottom()
             self.read_coordinates()
             self.read_maaiveld()
             self.read_borehole()
             df = self.create_df()
-            self.to_csv(df)
-            break
+            self.to_csv(df, boreholenumber)
 
     def boreholenumber(self):
-        self.boreholenumber = self.xml.find("identification").attrib.get("id")
+        print(self.xml.find("identification").attrib.get("id"))
+        boreholenumber = self.xml.find("identification").attrib.get("id")
+        return boreholenumber
 
     def read_topbottom(self):
         lithointerval = (
@@ -100,8 +101,8 @@ class read_xml_geologischeboringen:
 
         return df
 
-    def to_csv(self, df):
-        df.to_csv(self.boreholenumber + ".csv")
+    def to_csv(self, df, boreholenumber):
+        df.to_csv(boreholenumber + ".csv")
 
 
 # boornummer koppelen aan naam csv + nog even top en bottom toevoegen

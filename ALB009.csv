@@ -1,0 +1,7 @@
+,Xcoordinaat,Ycoordinaat,Maaiveld,top,bottom,lithology,humusAdmix,colorMain,colorSecondary,plantType,clayAdmix,peatAmorph,consistency,colorIntensity,sandMedian,sandMedianClass,remark
+0,189526,563029,-88,0,20,K,H1,GR,TBR,WOR1,,,,,,,"['or=o, Fe=1']"
+1,189526,563029,-88,20,50,K,H1,GR,TBR,,,,,,,,"['or=or, Fe=1']"
+2,189526,563029,-88,50,95,V,,BR,TZW,VEM2,KM,AV2,CMST,,,,"['or=or, VEZ1, TS0, veraard veen']"
+3,189526,563029,-88,95,210,V,,BR,TZW,VEM2,KM,AV1,CMST,,,,"['or=r, VEZ2']"
+4,189526,563029,-88,210,225,DET,,ZW,,,,AV3,CMST,,,,"['or=r, VEZ1, Z-bijmenging']"
+5,189526,563029,-88,225,230,Z,,GR,TBR,,KX,,,DO,,ZUF,"['or=r, ms']"

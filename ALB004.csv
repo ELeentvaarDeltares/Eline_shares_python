@@ -1,0 +1,11 @@
+,Xcoordinaat,Ycoordinaat,Maaiveld,top,bottom,lithology,siltAdmix,humusAdmix,colorMain,colorSecondary,plantType,carbonateFracNEN5104,clayAdmix,peatAmorph,consistency,sandMedian,sandMedianClass,authigenMin,remark
+0,189522,563090,-93,0,60,K,S1,H1,GR,TBR,WOR1,CA1,,,,,,,"['o, weing Fe, vooral bij worteld']"
+1,189522,563090,-93,60,65,K,S1,H1,GR,TBR,,CA1,,,,,,,"['or, reductievlekken']"
+2,189522,563090,-93,65,90,V,,,ZW,TBR,VEM2,,KM,AV2,CMST,,,,"['or, VEZ1, TS0']"
+3,189522,563090,-93,90,105,V,,,BR,,VEM2,,KM,AV1,CMSL,,,,"['r, VEZ2, TS1, veel zaadjes, onderste 5 cm veel wollegras, TS1 alleen in deze laag']"
+4,189522,563090,-93,105,122,V,,,BR,TZW,VEM2,,KM,AV2,CMSL,,,,"['or, VEZ2, TS0']"
+5,189522,563090,-93,122,140,V,,,BR,,VEM2,,KM,AV1,CMSL,,,,"['or, VEZ3, TS0']"
+6,189522,563090,-93,140,190,V,,,BR,,VEM2,,KM,AV1,CMSL,,,,"['or, VEZ3, TS1, veel wollegras in banden, VEZ en AV-geband']"
+7,189522,563090,-93,190,204,V,,,BR,,VEM2,,KM,AV2,CSLA,,,,"['or, VEZ1, TS0']"
+8,189522,563090,-93,204,211,DET,,,,,,CA1,,AV3,CSLA,,,,"['r, VEZ1, TS0, 1 band wollegras']"
+9,189522,563090,-93,211,220,Z,,H1,BR,TOR,WOR1,,KX,,,,ZUF,FEO1,"['lichte podzolvorming, top wat humeuzer, ms, een laag onderin meer Fe']"

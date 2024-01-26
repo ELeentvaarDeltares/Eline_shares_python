@@ -1,0 +1,7 @@
+,Xcoordinaat,Ycoordinaat,Maaiveld,top,bottom,lithology,siltAdmix,humusAdmix,colorMain,colorIntensity,consistency,plantType,authigenMin,clayAdmix,peatAmorph,colorSecondary,peatType,sandMedian,sandMedianClass,sandSorting,plantFrac,soilInterpret,remark
+0,189536,563090,-109,0,40,K,S1,H1,GR,DO,CMST,WOR2,FEO1,,,,,,,,,,"['oxidatiereductiezone, 30-40 cm-mv veenbrokjes (geploegd), brokkelig']"
+1,189536,563090,-109,40,50,V,,,ZW,,CMST,,,KM,AV3,,,,,,,,"['oxidatiereductiezone, vezeligheid 0, treksterkte 0, kleibrokjes']"
+2,189536,563090,-109,50,90,V,,,BR,,CMST,WOG1,,KM,AV2,TZW,MOV,,,,,,"['oxidatiereductiezone, vezeligheid 1, treksterkte 0, oligotroof veen']"
+3,189536,563090,-109,90,190,V,,,BR,,CMST,MOS2,,KM,AV1,,MOV,,,,,,"['reductiezone, vezeligheid 3, treksterkte 1, naar onderen CO=CMSL']"
+4,189536,563090,-109,190,198,DET,,,ZW,,,,,,,,,,,,,,
+5,189536,563090,-109,198,220,Z,,,BR,,,,,,,,,,ZMF,SMK,PL1,POD,

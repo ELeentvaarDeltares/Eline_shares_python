@@ -1,0 +1,9 @@
+,Xcoordinaat,Ycoordinaat,Maaiveld,top,bottom,lithology,siltAdmix,humusAdmix,colorMain,colorIntensity,consistency,plantType,carbonateFracNEN5104,authigenMin,clayAdmix,peatAmorph,peatType,colorSecondary,sandMedian,sandMedianClass,sandSorting,remark
+0,189703,563070,-112,0,30,K,S1,H2,GR,DO,CSTV,WOR1,CA1,FEO1,,,,,,,,['oxidatiezone']
+1,189703,563070,-112,30,48,K,S1,H1,GR,,CSTV,WOR1,CA1,FEO1,,,,,,,,['oxidatiereductiezone']
+2,189703,563070,-112,48,78,V,,,ZW,,CSTV,HEI1,,,KM,AV3,,,,,,"['oxidatiereductiezone, oligotroof veen, vezeligheid 1, treksterkte 0']"
+3,189703,563070,-112,78,120,V,,,BR,,CMSL,HEI1,,,KM,AV1,MOV,,,,,"['reductiezone, vezeligheid 3, treksterkte 1, 95-100 VAM=2: oxidatielaag']"
+4,189703,563070,-112,120,135,V,,,BR,,CSLA,HEI1,,,KM,AV2,MOV,,,,,"['reductiezone, vezeligheid 2, treksterkte 0']"
+5,189703,563070,-112,135,158,V,,,BR,,CMSL,,,,K3,AV2,MOV,TGR,,,,"['reductiezone, vezeligheid 2, treksterkte 0']"
+6,189703,563070,-112,158,175,DET,,,GR,DO,,,,,K3,,,,,,,"['reductiezone, vezeligheid 1, A-horizont en B-horizont met Fe inspoeling']"
+7,189703,563070,-112,175,180,Z,,H1,BR,,,,,FEO1,,,,,,ZMF,SMK,

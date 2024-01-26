@@ -1,0 +1,12 @@
+,Xcoordinaat,Ycoordinaat,Maaiveld,top,bottom,lithology,siltAdmix,humusAdmix,colorMain,colorSecondary,carbonateFracNEN5104,authigenMin,clayAdmix,colorIntensity,peatAmorph,consistency,plantType,sandMedian,sandMedianClass,remark
+0,189643,562972,-102,0,55,K,S2,H2,GR,TBR,CA1,FEO2,,,,,,,,"['o, tot ca 30 cm geroerd, vanaf 50 cm or']"
+1,189643,562972,-102,55,63,V,,,GR,TBR,CA1,,K3,,,,,,,"['or, brokkelig']"
+2,189643,562972,-102,63,80,V,,,BR,,CA1,,KM,DO,AV2,CMST,WOG2,,,"['or, VEZ1, TS0, brokkelig']"
+3,189643,562972,-102,80,95,V,,,BR,TRO,CA1,,KM,,AV1,CMST,WOG1,,,"['r, VEZ2, TS1']"
+4,189643,562972,-102,95,170,V,,,BR,TRO,CA1,,KM,,AV1,CMST,WOG2,,,"['r, VEZ3, TS1']"
+5,189643,562972,-102,170,197,V,,,BR,,CA1,,KM,,AV2,CMSL,WOG1,,,"['r, VEZ2, TS1']"
+6,189643,562972,-102,197,208,DET,,,ZW,,CA1,,,,AV2,CMST,,,,"['r, VEZ1, TS0, fijne detr, onderin zandiger']"
+7,189643,562972,-102,208,223,Z,,H1,BR,,CA1,FEO1,KX,,,,,,ZMF,"['r, Ahor podzol, doorworteld, ms']"
+8,189643,562972,-102,223,235,Z,,,GE,,CA1,FEO2,,DO,,,,,ZMF,"['r, ms']"
+9,189643,562972,-102,235,240,Z,,,GR,TGE,CA1,FEO1,,LI,,,,,ZMF,"['r, ms']"
+10,189643,562972,-102,240,250,K,S4,,GE,TGN,,FEO1,,,,,,,,"['r, doorworteld, aanzet tot keileem?, silt loam']"

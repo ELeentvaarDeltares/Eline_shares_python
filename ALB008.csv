@@ -1,9 +1,9 @@
-,Xcoordinaat,Ycoordinaat,Maaiveld,top,bottom,lithology,siltAdmix,humusAdmix,colorMain,colorSecondary,colorIntensity,plantType,carbonateFracNEN5104,clayAdmix,peatAmorph,consistency,sandMedian,sandMedianClass,remark
-0,189561,563154,-97,0,20,K,S1,H1,GR,TBR,DO,WOR1,CA1,,,,,,"['or=o, Fe=1, stugge klei']"
-1,189561,563154,-97,20,50,K,S1,H1,GR,TBR,,WOR1,CA1,,,,,,"['or=r, Fe=1']"
-2,189561,563154,-97,50,70,V,,,BR,,,VEM2,,K1,AV3,,,,"['or=or, VEZ0, met klei opgevulde muizengangen']"
-3,189561,563154,-97,70,96,V,,,BR,TZW,,HEI1,CA1,KM,AV2,CSTV,,,"['or=or, VEZ1']"
-4,189561,563154,-97,96,195,V,,,BR,,,VEM2,CA1,KM,AV1,CMSL,,,"['or=r, VEZ2, geleidelijk slaper naar onder toe en minder vezels iets amorfer']"
-5,189561,563154,-97,195,200,DET,,,ZW,,,,CA1,,AV3,CSLA,,,"['or=r, Z-bijmenging']"
-6,189561,563154,-97,200,210,Z,,H1,GR,TBR,DO,,CA1,KX,,,,ZMF,"['or=r, Fe=1 (wortelgangen), ms']"
-7,189561,563154,-97,210,220,Z,,,GR,TBR,,,CA1,,,,,ZUF,"['or=r, Fe=1, ms']"
+,Xcoordinaat,Ycoordinaat,Maaiveld,top,bottom,lithology,siltAdmix,humusAdmix,colorMain,colorSecondary,colorIntensity,plantType,carbonateFracNEN5104,clayAdmix,peatAmorph,consistency,sandMedian,sandMedianClass,remark,remark,remark
+0,189561,563154,-97,0,20,K,S1,H1,GR,TBR,DO,WOR1,CA1,,,,,,or=o,Fe=1,stugge klei
+1,189561,563154,-97,20,50,K,S1,H1,GR,TBR,,WOR1,CA1,,,,,,or=r,Fe=1,
+2,189561,563154,-97,50,70,V,,,BR,,,VEM2,,K1,AV3,,,,or=or,VEZ0,met klei opgevulde muizengangen
+3,189561,563154,-97,70,96,V,,,BR,TZW,,HEI1,CA1,KM,AV2,CSTV,,,or=or,VEZ1,
+4,189561,563154,-97,96,195,V,,,BR,,,VEM2,CA1,KM,AV1,CMSL,,,or=r,VEZ2,geleidelijk slaper naar onder toe en minder vezels iets amorfer
+5,189561,563154,-97,195,200,DET,,,ZW,,,,CA1,,AV3,CSLA,,,or=r,Z-bijmenging,
+6,189561,563154,-97,200,210,Z,,H1,GR,TBR,DO,,CA1,KX,,,,ZMF,or=r,Fe=1 (wortelgangen),ms
+7,189561,563154,-97,210,220,Z,,,GR,TBR,,,CA1,,,,,ZUF,or=r,Fe=1,ms

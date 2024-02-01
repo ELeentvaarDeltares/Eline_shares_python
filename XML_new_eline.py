@@ -22,6 +22,7 @@ class read_xml_geologischeboringen:
             self.read_maaiveld()
             self.read_borehole()
             df = self.create_df()
+            df = self.split_remark(df)
             self.to_csv(df, boreholenumber)
 
     def boreholenumber(self):
@@ -98,6 +99,17 @@ class read_xml_geologischeboringen:
         new_order = [col for col in df.columns if col != "remark"] + ["remark"]
         df = df[new_order]
 
+        return df
+
+    def split_remark(self, df):
+        df_remark = df["remark"]
+        df_remark = df_remark.str.replace("'", "")
+        df_remark = df_remark.str.replace("[", "", regex=False)
+        df_remark = df_remark.str.replace("]", "", regex=False)
+        df_remark = df_remark.str.split(", ", expand=True)
+        df_remark.columns = ["remark"] * len(df_remark.columns)
+        df = df.drop("remark", axis=1)
+        df = pd.concat([df, df_remark], axis=1)
         return df
 
     def to_csv(self, df, boreholenumber):

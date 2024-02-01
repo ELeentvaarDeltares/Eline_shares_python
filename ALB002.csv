@@ -1,10 +1,10 @@
-,Xcoordinaat,Ycoordinaat,Maaiveld,top,bottom,lithology,siltAdmix,humusAdmix,colorMain,colorSecondary,colorIntensity,plantType,carbonateFracNEN5104,authigenMin,clayAdmix,peatAmorph,consistency,sandMedian,sandMedianClass,remark
-0,189684,563069,-93,0,50,K,S2,H2,GR,TBR,DO,WOR1,CA1,FEO1,,,,,,"['or, stug, reductievlekken, enkele Z korrel, baksteen']"
-1,189684,563069,-93,50,91,V,,,ZW,TBR,,WOGX,CA1,,KM,AV2,CMST,,,"['or, VEZ1, TS0, wollegras en heide']"
-2,189684,563069,-93,91,120,V,,,BR,,,WOGX,CA1,,KM,AV1,CMST,,,"['r, VEZ2, TS0, wollegras']"
-3,189684,563069,-93,120,157,V,,,BR,,,WOG3,CA1,,KM,AV1,CMSL,,,"['r, VEZ2, TS0, TSI bij veel wollegras']"
-4,189684,563069,-93,157,169,DET,,,BR,,DO,,CA1,,,AV2,CSLA,,,"['r, VEZ1, TS0']"
-5,189684,563069,-93,169,178,DET,,,ZW,TGR,,,CA1,,,AV3,CMST,,,"['r, VEZ0, TS0, smeer zandige bijmening']"
-6,189684,563069,-93,178,187,Z,,H1,GR,TBR,,,CA1,,KX,,,,ZMF,"['r, podzol profiel, ms']"
-7,189684,563069,-93,187,220,Z,,,GR,TBR,,,CA1,FEO1,,,,,ZMF,"['r, ws']"
-8,189684,563069,-93,220,230,Z,,,GR,,,WOR1,CA1,,,,,,ZUF,"['r, ws']"
+,Xcoordinaat,Ycoordinaat,Maaiveld,top,bottom,lithology,siltAdmix,humusAdmix,colorMain,colorSecondary,colorIntensity,plantType,carbonateFracNEN5104,authigenMin,clayAdmix,peatAmorph,consistency,sandMedian,sandMedianClass,remark,remark,remark,remark,remark
+0,189684,563069,-93,0,50,K,S2,H2,GR,TBR,DO,WOR1,CA1,FEO1,,,,,,or,stug,reductievlekken,enkele Z korrel,baksteen
+1,189684,563069,-93,50,91,V,,,ZW,TBR,,WOGX,CA1,,KM,AV2,CMST,,,or,VEZ1,TS0,wollegras en heide,
+2,189684,563069,-93,91,120,V,,,BR,,,WOGX,CA1,,KM,AV1,CMST,,,r,VEZ2,TS0,wollegras,
+3,189684,563069,-93,120,157,V,,,BR,,,WOG3,CA1,,KM,AV1,CMSL,,,r,VEZ2,TS0,TSI bij veel wollegras,
+4,189684,563069,-93,157,169,DET,,,BR,,DO,,CA1,,,AV2,CSLA,,,r,VEZ1,TS0,,
+5,189684,563069,-93,169,178,DET,,,ZW,TGR,,,CA1,,,AV3,CMST,,,r,VEZ0,TS0,smeer zandige bijmening,
+6,189684,563069,-93,178,187,Z,,H1,GR,TBR,,,CA1,,KX,,,,ZMF,r,podzol profiel,ms,,
+7,189684,563069,-93,187,220,Z,,,GR,TBR,,,CA1,FEO1,,,,,ZMF,r,ws,,,
+8,189684,563069,-93,220,230,Z,,,GR,,,WOR1,CA1,,,,,,ZUF,r,ws,,,

@@ -1,7 +1,7 @@
-,Xcoordinaat,Ycoordinaat,Maaiveld,top,bottom,lithology,siltAdmix,humusAdmix,colorMain,colorSecondary,carbonateFracNEN5104,clayAdmix,peatAmorph,consistency,plantType,sandMedian,sandMedianClass,remark
-0,189531,563091,-101,0,40,K,S2,H1,GR,TBR,CA1,,,,,,,"['or=or, Fe=1, reductie en oxidatievlekken, Z-bijmenging, brokkelig']"
-1,189531,563091,-101,40,65,V,,,BR,TZW,CA1,KM,AV2,CMST,HEI1,,,"['or=or, VEZ1, TS0, veraard veen']"
-2,189531,563091,-101,65,190,V,,,BR,,CA1,KM,AV1,CMSL,VEM2,,,"['or=r, VEZ2, TS1, wollegras in banden/plukken, naar onder toe bruiner/slapper, witte puntjes onbekend']"
-3,189531,563091,-101,190,200,DET,,,ZW,,,,AV3,CSLA,,,,"['or=r, VEZ1, TS0, Z-bijmenging']"
-4,189531,563091,-101,200,215,Z,,H1,BR,TOR,CA1,KX,,,,,ZUF,"['or=r, paleobodem, inspoeling Fe, ms']"
-5,189531,563091,-101,215,225,Z,,,GR,TBR,CA1,,,,,,ZZF,
+,Xcoordinaat,Ycoordinaat,Maaiveld,top,bottom,lithology,siltAdmix,humusAdmix,colorMain,colorSecondary,carbonateFracNEN5104,clayAdmix,peatAmorph,consistency,plantType,sandMedian,sandMedianClass,remark,remark,remark,remark,remark,remark
+0,189531,563091,-101,0,40,K,S2,H1,GR,TBR,CA1,,,,,,,or=or,Fe=1,reductie en oxidatievlekken,Z-bijmenging,brokkelig,
+1,189531,563091,-101,40,65,V,,,BR,TZW,CA1,KM,AV2,CMST,HEI1,,,or=or,VEZ1,TS0,veraard veen,,
+2,189531,563091,-101,65,190,V,,,BR,,CA1,KM,AV1,CMSL,VEM2,,,or=r,VEZ2,TS1,wollegras in banden/plukken,naar onder toe bruiner/slapper,witte puntjes onbekend
+3,189531,563091,-101,190,200,DET,,,ZW,,,,AV3,CSLA,,,,or=r,VEZ1,TS0,Z-bijmenging,,
+4,189531,563091,-101,200,215,Z,,H1,BR,TOR,CA1,KX,,,,,ZUF,or=r,paleobodem,inspoeling Fe,ms,,
+5,189531,563091,-101,215,225,Z,,,GR,TBR,CA1,,,,,,ZZF,,,,,,

@@ -1,12 +1,12 @@
-,Xcoordinaat,Ycoordinaat,Maaiveld,top,bottom,lithology,siltAdmix,humusAdmix,colorMain,colorSecondary,carbonateFracNEN5104,clayAdmix,colorIntensity,peatAmorph,consistency,plantType,sandMedian,sandMedianClass,remark
-0,189705,563100,-100,0,35,K,S2,H1,GR,TBR,CA1,,,,,,,,"['OR=o, Fe=2, geroerd?']"
-1,189705,563100,-100,35,60,V,,,BR,TGR,CA1,K3,,,,,,,"['OR=o, Fe=0, brokkelig']"
-2,189705,563100,-100,60,70,V,,,BR,,,K1,DO,AV3,CMST,,,,"['OR=or, Fe=0, VEZ1, TS0, gw=60']"
-3,189705,563100,-100,70,75,V,,,BR,TGR,,K3,,AV3,CMST,,,,"['OR=or, brokkelig']"
-4,189705,563100,-100,75,80,V,,,BR,,CA1,K1,DO,AV3,CMST,,,,"['OR=or, VEZ1, TS0']"
-5,189705,563100,-100,80,145,V,,,BR,,CA1,KM,,AV1,CMST,VEM2,,,"['OR=r, VEZ3, TS1']"
-6,189705,563100,-100,145,155,V,,,BR,TZW,CA1,KM,,AV3,CMSL,VEM1,,,"['OR=r, VEZ1, TS0, amorf veen']"
-7,189705,563100,-100,155,163,DET,,,BR,TZW,CA1,,,,,,,,"['or=r, fijne detritus, enig zand bijmenging']"
-8,189705,563100,-100,163,182,Z,,H1,GR,TBR,CA1,KX,LI,,,,,ZMF,"['or=r, Fe=0, ms, A-hor']"
-9,189705,563100,-100,182,190,Z,,,GR,TOR,CA1,,,,,,,ZMF,"['or=r, Fe=2, ms, doorworteld']"
-10,189705,563100,-100,190,210,Z,,,,,,,,,,,,,['zand gevoeld']
+,Xcoordinaat,Ycoordinaat,Maaiveld,top,bottom,lithology,siltAdmix,humusAdmix,colorMain,colorSecondary,carbonateFracNEN5104,clayAdmix,colorIntensity,peatAmorph,consistency,plantType,sandMedian,sandMedianClass,remark,remark,remark,remark,remark
+0,189705,563100,-100,0,35,K,S2,H1,GR,TBR,CA1,,,,,,,,OR=o,Fe=2,geroerd?,,
+1,189705,563100,-100,35,60,V,,,BR,TGR,CA1,K3,,,,,,,OR=o,Fe=0,brokkelig,,
+2,189705,563100,-100,60,70,V,,,BR,,,K1,DO,AV3,CMST,,,,OR=or,Fe=0,VEZ1,TS0,gw=60
+3,189705,563100,-100,70,75,V,,,BR,TGR,,K3,,AV3,CMST,,,,OR=or,brokkelig,,,
+4,189705,563100,-100,75,80,V,,,BR,,CA1,K1,DO,AV3,CMST,,,,OR=or,VEZ1,TS0,,
+5,189705,563100,-100,80,145,V,,,BR,,CA1,KM,,AV1,CMST,VEM2,,,OR=r,VEZ3,TS1,,
+6,189705,563100,-100,145,155,V,,,BR,TZW,CA1,KM,,AV3,CMSL,VEM1,,,OR=r,VEZ1,TS0,amorf veen,
+7,189705,563100,-100,155,163,DET,,,BR,TZW,CA1,,,,,,,,or=r,fijne detritus,enig zand bijmenging,,
+8,189705,563100,-100,163,182,Z,,H1,GR,TBR,CA1,KX,LI,,,,,ZMF,or=r,Fe=0,ms,A-hor,
+9,189705,563100,-100,182,190,Z,,,GR,TOR,CA1,,,,,,,ZMF,or=r,Fe=2,ms,doorworteld,
+10,189705,563100,-100,190,210,Z,,,,,,,,,,,,,zand gevoeld,,,,
